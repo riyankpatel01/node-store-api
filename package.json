@@ -1,0 +1,33 @@
+{
+  "name": "node-store-api",
+  "version": "1.0.0",
+  "description": "Production-style REST API with Node.js, Express and MySQL: JWT auth, role-based access, validation, pagination, search and tests.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "rest-api",
+    "jwt"
+  ],
+  "author": "Riyank Patel",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.4"
+  }
+}
